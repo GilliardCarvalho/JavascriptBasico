@@ -1,0 +1,9 @@
+.circulo {
+    width: 100px;
+    height:100px;
+    background-color: black;
+    border-radius: 360px;
+}
+.ligado {
+background-color: green;
+}

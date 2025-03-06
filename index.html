@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function imprimirOlaMundo(nome, sobrenome) {
+            let mensagem = "Olá, " + nome + " - " + sobrenome;
+            alert(mensagem);
+        }
+    </script>
+    <h1>Gilliard</h1>
+    <div>
+        <h1>Formulário 1</h1>
+        <button onclick="imprimirOlaMundo('Gilliard', 'Carvalho de Almeida')">Clique Aqui</button>
+        <input type="text" placeholder="nome" id="nome" value="Gilliard">
+        <input type="text" placeholder="sobrenome" id="sobrenome" value="Carvalho de Almeida">
+        <button onclick="enviarformulario()">Enviar</button>
+    </div>
+    <div>
+        <h1>Formulário 2</h1>
+        <form id="MeuFormulario">
+            <input type="text" placeholder="nome" id="nomeForm" value="Gilliard">
+            <input type="text" placeholder="sobrenome" id="sobrenomeForm" value="Carvalho de Almeida">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div>
+        <h1>Liga/Desliga</h1>
+        <button id="buttonLigaDesliga">Liga</button>
+        <div class="circulo" id="circulo">
+
+        </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+
+</body>
+
+</html>
